@@ -1,0 +1,26 @@
+
+version: '3'
+services:
+  service1:
+    image: nginx
+    container_name: service1
+    volumes:
+      - ./service1:/usr/share/nginx/html
+    ports:
+      - 8080:80
+
+  service2:
+    image: nginx
+    container_name: service2
+    volumes:
+      - ./service2:/usr/share/nginx/html
+    ports:
+      - 8081:80
+
+  service3:
+    image: nginx
+    container_name: service3
+    volumes:
+      - ./service3:/usr/share/nginx/html
+    ports:
+      - 8082:80
