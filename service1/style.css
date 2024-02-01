@@ -23,6 +23,12 @@ a {
   text-decoration: none;
 }
 
+li {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  list-style: none;
+}
 /* BEGIN: Additional styles */
 /* Add your additional styles here */
 /* END: Additional styles */
