@@ -7,7 +7,7 @@ fetch('assets/data.txt')
         console.error('Error:', error);
     });
 
-fetch('/assets/data.txt')
+fetch('/assets/data2.txt')
     .then(response => response.text())
     .then(data => {
         document.getElementById('data2').textContent = data;
