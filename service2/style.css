@@ -24,6 +24,13 @@ a {
   text-decoration: none;
 }
 
+.data {
+  margin-top: 2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
 /* BEGIN: Additional styles */
 /* Add your additional styles here */
 /* END: Additional styles */
